@@ -45,6 +45,14 @@ header {
 
 }
 
+.portfolio {
+    color: #eee;
+    font-size: 48px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif
+}
+
+
 
 /* ---NAV STARTS HERE--- */
 
@@ -122,3 +130,20 @@ nav .nav-list li.btn:hover a {
 /* ---NAV ENDS HERE--- */
 
 /* --- HEADER ENDS HERE--- */
+
+.wrapper {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 210px;
+    top: 40px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background: url(../Assets/IMG_0880.JPG);
+    background-size: 100% auto;
+    background-position: center;
+    margin: 100px auto;
+    overflow: hidden;
+    
+
+}
