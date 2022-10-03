@@ -145,5 +145,24 @@ nav .nav-list li.btn:hover a {
     margin: 100px auto;
     overflow: hidden;
     
+}
+
+.container {
+    padding-top: 190px;
 
 }
+
+.container .hero-text {
+    margin-bottom: 40px;
+}
+
+.container .hero-text h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0px 20px;
+
+}
+
+span
