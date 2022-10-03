@@ -14,6 +14,10 @@ body {
     overflow-x: hidden;
 }
 
+span {
+    color: #2ecc75;
+}
+
 /* ---SECTION STARTS HERE--- */
 
 .hero {
@@ -70,7 +74,6 @@ nav .hamb{
 
 nav .hamb span {
     display: block;
-    background: #2ecc75;
     width: 100%;
     height: 3px;
     transition: .3s;
@@ -139,7 +142,7 @@ nav .nav-list li.btn:hover a {
     top: 40px;
     border: 5px solid white;
     border-radius: 50%;
-    background: url(../Assets/IMG_0880.JPG);
+    background: url(../assest/IMG_0880.JPG);
     background-size: 100% auto;
     background-position: center;
     margin: 100px auto;
@@ -165,4 +168,3 @@ nav .nav-list li.btn:hover a {
 
 }
 
-span
