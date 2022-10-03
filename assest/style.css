@@ -209,3 +209,13 @@ nav .nav-list li.btn:hover a {
 
 
 /* ---ARTICLE STARTS HERE--- */
+
+.line {
+    border-left: 5px solid #2ecc75;
+    height: 500px;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+    margin-left: 3px;
+    top: 300px;
+}
