@@ -19,6 +19,17 @@ span {
     color: #2ecc75;
 }
 
+p {
+    width: 440px;
+    max-width: 100%;
+    color: #eee;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+
 /* ---SECTION STARTS HERE--- */
 
 .hero {
@@ -175,15 +186,6 @@ nav .nav-list li.btn:hover a {
 
 }
 
-.container .hero-text p{
-    width: 440px;
-    max-width: 100%;
-    color: #eee;
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-}
-
 .social a {
     width: 37px;
     height: 37px;
@@ -258,15 +260,6 @@ hr{
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
 
-}
-
-.about-text p {
-    color: white;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .about-text h5 {
