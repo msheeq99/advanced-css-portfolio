@@ -61,7 +61,7 @@ p {
 /* ---HEADER STARTS HERE--- */
 
 header {
-    padding: 40px 0 30px;
+    padding: 40px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -171,11 +171,17 @@ nav .nav-list li.btn:hover a {
 
 .container {
     padding-top: 190px;
+    
 
+}
+
+.hero-text {
+    padding: 2%;
 }
 
 .container .hero-text {
     margin-bottom: 40px;
+    padding: 2%;
 }
 
 .container .hero-text h1{
@@ -283,13 +289,15 @@ hr{
 }
 
 .services {
-    background: var(--dark-grey);
+    background: black;
     width: 100%;
     padding: 100px 0px;
+    height: auto;
+    margin-top: auto;
 
 }
 
-.title h3 {
+.title h2 {
     color: var(--white);
     font-size: 75;
     width: 1130px;
@@ -314,4 +322,25 @@ hr{
     position: relative;
     overflow: hidden;
     text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: var(--green);
+}
+
+.card h3 {
+    color: var(--white);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.work p{
+    color: var(--white);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
 }
