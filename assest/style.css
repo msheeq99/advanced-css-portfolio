@@ -1,3 +1,4 @@
+
 :root {
     --green: #2ecc75;
     --white: #eee;
@@ -226,8 +227,8 @@ hr{
     height: 400px;
     width: 2px;
     position: absolute;
-    left: 44%;
-    top: 10px;
+    left: 38%;
+    top: 70px;
 }
 
 .about {
@@ -237,14 +238,15 @@ hr{
 
 }
 
-.about img {
+.about-me img {
     height: auto;
-    width: 400px;
-
+    width: 300px;
+    top: 70px;
 }
 
 .about-text {
     width: 550px;
+    
 
 }
 
@@ -255,6 +257,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    top: 70px;
 
 }
 
@@ -269,7 +272,7 @@ hr{
 }
 
 .about-text h5 {
-    color: white;
+    color: var(--white);
     font-size: 25px;
     font-weight: 500;
     line-height: 1.2;
@@ -277,3 +280,25 @@ hr{
 
 
 }
+
+.services {
+    width: 100%;
+    padding: 100px 0px;
+
+}
+
+.title h3 {
+    color: var(--white);
+    font-size: 75;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
