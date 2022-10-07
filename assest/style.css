@@ -496,7 +496,7 @@ nav .nav-list li.btn:hover a {
 
 @media screen and (max-width: 890px) {
     * {
-        transition: all 0.5s;
+        
     }
 
     .nav-list {
@@ -512,18 +512,62 @@ nav .nav-list li.btn:hover a {
         left: 100px;        
     }
 
-    .about-me h2, h5 {
+
+    .hero-text p {
+        font-size: 17px;
+    }
+
+    .about-me h2,h5 {
         position: relative;
-        bottom: 120px;
+        bottom: 10px;
         left: 330px;
     }
 
     .about-me p{
         font-size: 20px;
         position: relative;
-        bottom: 120px;
+        bottom: 10px;
         left: 330px;
     }
     
+    .line {
+        position: relative;
+        bottom: 120px;
+        left: 573px;
+    }
+
+    .about-me img {
+        left: 173px;
+    }
+
+    .hori-line-2 {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        left: 135px;        
+    }
+
+    .title h2 {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .card {
+        width: 100%;
+        display: ;
+        position: relative;
+        left: 100px;
+      
+    }
+
+    .card img {
+        height: 60%;
+
+    }
+
+    .card p {
+        font-size: 14px;
+
+    }
 }
 
