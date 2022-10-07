@@ -76,6 +76,7 @@ header {
     font-size: 48px;
     display: inline-block;
     font-family: var(--ff--);
+    margin-left: 45px;
 }
 
 
@@ -289,18 +290,18 @@ nav .nav-list li.btn:hover a {
 }
 
 #services {
-    background: black;
+    background: white;
     width: 100%;
     padding: 100px 50px;
     height: 100%;
-    padding-top: 500px;
+    
    
 
 }
 
 .title h2 {
     color: var(--white);
-    font-size: 75;
+    font-size: 30px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
@@ -312,6 +313,7 @@ nav .nav-list li.btn:hover a {
     align-items: center;
     height: 100%;
     flex-wrap: nowrap;
+    background-color: ;
 
 }
 
@@ -319,7 +321,6 @@ nav .nav-list li.btn:hover a {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: var(--dark-grey);
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -433,4 +434,5 @@ nav .nav-list li.btn:hover a {
 
 
 }
+
 
