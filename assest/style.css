@@ -21,6 +21,7 @@
 
 body {
     overflow-x: hidden;
+    display: block;
 }
 
 span {
@@ -35,6 +36,7 @@ p {
     line-height: 1.5;
     margin-bottom: 30px;
 }
+
 
 
 
@@ -170,8 +172,8 @@ nav .nav-list li.btn:hover a {
 }
 
 .container {
-    padding-top: 190px;
-    
+    padding-top: 135px;
+    margin-left: 45px;
 
 }
 
@@ -223,9 +225,7 @@ nav .nav-list li.btn:hover a {
 
 
 /* ---HEADER ENDS HERE--- */
-hr{
-    color: var(--green);
-}
+
 /* ---ARTICLE STARTS HERE--- */
 
 
@@ -264,7 +264,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: 70px;
+    top: 0;
 
 }
 
@@ -288,12 +288,13 @@ hr{
 
 }
 
-.services {
+#services {
     background: black;
     width: 100%;
-    padding: 100px 0px;
-    height: auto;
-    margin-top: auto;
+    padding: 100px 50px;
+    height: 100%;
+    padding-top: 500px;
+   
 
 }
 
@@ -309,7 +310,9 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    height: 100%;
+    flex-wrap: nowrap;
+
 }
 
 .card {
@@ -344,3 +347,90 @@ hr{
     line-height: 27px;
     margin-bottom: 25px;
 }
+
+.hori-line {
+    padding: 100px;
+
+}
+
+.horizontal {
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.horizontal::before , .horizontal::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: var(--white);
+    width: 45%;
+    top: 45%;
+}
+
+.horizontal::after {
+    left: 0;
+}
+
+.horizontal::before {
+    right: 0;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border: 2px solid var(--green);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+
+
+}
+
+
+.hori-line-2 {
+    padding: 100px;
+    margin-top: 200px;
+
+}
+
+.horizontal-2 {
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.horizontal-2::before , .horizontal-2::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: var(--white);
+    width: 45%;
+    top: 50%;
+}
+
+.horizontal-2::after {
+    left: 0;
+}
+
+.horizontal-2::before {
+    right: 0;
+}
+
+.circle-2 {
+    height: 40px;
+    width: 40px;
+    border: 2px solid var(--green);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+
+
+}
+
