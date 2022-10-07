@@ -258,7 +258,7 @@ nav .nav-list li.btn:hover a {
     height: 2px;
     background: var(--white);
     width: 45%;
-    top: 45%;
+    top: 50%;
 }
 
 .horizontal::after {
@@ -324,7 +324,7 @@ nav .nav-list li.btn:hover a {
 
 .about-text h5 {
     color: var(--white);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1.2;
     margin: 20px 0px 20px;
@@ -335,7 +335,7 @@ nav .nav-list li.btn:hover a {
 
 .hori-line-2 {
     padding: 100px;
-    margin-top: 
+ 
 
 }
 
@@ -448,6 +448,49 @@ nav .nav-list li.btn:hover a {
     margin-bottom: 25px;
 }
 
+.h {
+    width: 80%;
+    height: 7px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 450px;
+    margin-bottom: 100px;
+    background-color: var(--white);
+}
+
+.c-holder {
+   position: relative;
+   padding: 50px 100px;
+   display: flex;
+   bottom: 50px;
+   height: 10px;
+   
+}
+
+.c-holder h2 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    position: relative;
+    bottom: 100px;
+}
+
+.contact-info i {
+   
+    font-size: 30px;
+    display: flex;
+    margin: 25px 70px;
+    color: var(--green);
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    text-align: center;
+}
 
 
 
