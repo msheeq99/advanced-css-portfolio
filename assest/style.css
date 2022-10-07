@@ -1,10 +1,11 @@
-
+/* ---VARIABLES--- */
 :root {
     --green: #2ecc75;
     --white: #eee;
     --ff--:'Poppins',sans-serif;
     --dark-grey: #191919;
 }
+
 
 
 /* ---GLOBAL--- */
@@ -15,6 +16,7 @@
     font-family: var(--ff--);
     text-decoration: none;
     background-color: black;
+    
     
 
 }
@@ -158,12 +160,18 @@ nav .nav-list li.btn:hover a {
 
 /* --- HEADER ENDS HERE--- */
 
+.container {
+    padding-top: 135px;
+    margin-left: 45px;
+
+}
+
 .wrapper {
     height: 400px;
     width: 400px;
     position: absolute;
-    right: 210px;
-    top: 40px;
+    left: 560px;
+    bottom: 1px;
     border: 5px solid var(--white);
     border-radius: 50%;
     background: url(../assest/IMG_0880.JPG);
@@ -174,19 +182,11 @@ nav .nav-list li.btn:hover a {
     
 }
 
-.container {
-    padding-top: 135px;
-    margin-left: 45px;
-
-}
-
-.hero-text {
-    padding: 2%;
-}
-
 .container .hero-text {
-    margin-bottom: 40px;
+    margin-bottom: px;
     padding: 2%;
+    position: relative;
+    bottom: px;
 }
 
 .container .hero-text h1{
@@ -492,5 +492,38 @@ nav .nav-list li.btn:hover a {
     text-align: center;
 }
 
+/* ---MEDIA QUERIES--- */
 
+@media screen and (max-width: 890px) {
+    * {
+        transition: all 0.5s;
+    }
+
+    .nav-list {
+        width: 100%;
+        position: relative;
+        left: 250px;
+    }
+
+    .hori-line {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        left: 100px;        
+    }
+
+    .about-me h2, h5 {
+        position: relative;
+        bottom: 120px;
+        left: 330px;
+    }
+
+    .about-me p{
+        font-size: 20px;
+        position: relative;
+        bottom: 120px;
+        left: 330px;
+    }
+    
+}
 
