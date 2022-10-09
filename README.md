@@ -5,9 +5,12 @@
 
 TASK :
 
-In my portfolio i am showcasing my skills and talent, This project was created to showcase my abilities to potential employers looking for a aspiring web developer. It'll be my goal to consistently change and improve this web application as my skills improve.
+A portfolio is a compilation of work that provides clear snapshots of your prior projects. It is more than just a list of previous projects; it reflects the portfolio owners' attitudes, abilities, and potential
+
+through out my course i will be updating portfolio by putting projects of my own.
 
 
 
 
+![scrnli_09_10_2022_22-56-03](https://user-images.githubusercontent.com/113865888/194781290-751213ae-2d98-476f-939a-de77cf5d7fa4.png)
 
