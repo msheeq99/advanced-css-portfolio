@@ -495,14 +495,21 @@ nav .nav-list li.btn:hover a {
 /* ---MEDIA QUERIES--- */
 
 @media screen and (max-width: 890px) {
-    * {
-        
-    }
+    
 
     .nav-list {
         width: 100%;
         position: relative;
         left: 250px;
+        display: flex;
+
+    }
+
+    .box {
+        display: flex;
+        width: 100%;
+        size: 60%;
+        position: relative;
     }
 
     .hori-line {
@@ -510,6 +517,11 @@ nav .nav-list li.btn:hover a {
         justify-content: center;
         position: relative;
         left: 100px;        
+    }
+
+    .hori-line-2 {
+        position: relative;
+        bottom: 100px;
     }
 
 
@@ -549,25 +561,120 @@ nav .nav-list li.btn:hover a {
 
     .title h2 {
         position: relative;
+        font-size: 35px;
+        
+
+    }
+    .box {
+        flex-wrap: wrap;
+        position: relative;
+        bottom: 300px;
+        align-items: center;
+        height: 100%;
+    }
+
+    .title h2 {
+        position: relative;
+        bottom: 190px;
+        right: 297px;
+        
+    }
+
+    #card-1  {
+        position: relative;
+        left: 150px;
+        bottom: 100px;
+        width: 80%;
+        
+    }
+
+    #card-1 p {
+        font-size: 20px;
+    }
+
+    #card-1 img {
+        width: 100%;
+    }
+
+    #card-1 h3{
+        font-size: 18px;
+
+    }
+
+    #card-2 {
+        position: relative;
+        left: 150px;
+        width: 80%;
+        bottom: 90px;
+    }
+
+    #card-2 p{
+        font-size: 20px;
+    }
+
+    #card-2 img {
+        width: 100%;
+    }
+
+    #card-2 h3{
+        font-size: 18px;
+    }
+
+    #card-3 {
+        position: relative;
+        left: 160px;
+        width: 80%;
         bottom: 100px;
     }
+    
+    #card-3 p {
+        font-size: 20px;
+    }
 
-    .card {
+    #card-3 img {
         width: 100%;
-        display: ;
+
+    }
+    
+    #card-3 h3 {
+        font-size: 18px;
+    }
+
+    .c-holder {
         position: relative;
-        left: 100px;
-      
+        top: 1090px;
     }
 
-    .card img {
-        height: 60%;
-
+    .h {
+        position: relative;
+        top:1090px
     }
 
-    .card p {
-        font-size: 14px;
 
-    }
 }
 
+
+/* ---MEDIA QUERIES--- */
+
+@media screen and (max-width: 710px) {
+    .title {
+        position: relative;
+    
+    }
+
+}
+
+/* ---MEDIA QUERIES--- */
+
+@media screen and (max-width: 540px) {
+    #card-1 img {
+        
+    }
+
+}
+
+/* ---MEDIA QUERIES--- */
+
+@media screen and (max-width: 430px) {
+
+}
