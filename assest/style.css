@@ -238,7 +238,7 @@ nav .nav-list li.btn:hover a {
 
 /* ---HEADER ENDS HERE--- */
 
-/* ---ARTICLE STARTS HERE--- */
+/* ---ARTICLE/ABOUT ME STARTS HERE--- */
 
 .hori-line {
     padding: 100px;
@@ -376,7 +376,7 @@ nav .nav-list li.btn:hover a {
 
 }
 
-
+/*---ARTICLE SERVICE SECTION STARTS---*/ 
 
 .s-holder {
     background: black;
@@ -468,6 +468,8 @@ nav .nav-list li.btn:hover a {
     background-color: var(--white);
 }
 
+/*--- FOOTER ---*/
+
 .c-holder {
    position: relative;
    padding: 50px 100px;
@@ -535,6 +537,7 @@ nav .nav-list li.btn:hover a {
         position: relative;
         left: 30px;
     }
+
 
     .title {
         position: relative;
@@ -663,7 +666,7 @@ nav .nav-list li.btn:hover a {
 
 /* ---MEDIA QUERIES--- */
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 425px) {
    .box {
       display: block;
    }
